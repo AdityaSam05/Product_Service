@@ -15,7 +15,7 @@ from .exceptions import (
 )
 
 class CustomThrottle(UserRateThrottle):
-    rate = "10000/min"  # Allow 10 requests per minute per user
+    rate = "10000/min"  # Allow 10000 requests per minute per user
 
 class AdminOnlyForWrite(BasePermission):
     """
